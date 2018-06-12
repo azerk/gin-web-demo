@@ -3,7 +3,8 @@ upload pic
 
 使用gin做的上传文件的小demo
 
-包括三个接口：
+包括三个接口： 
+
 1.访问web页面的接口：http://59.110.214.75/load 
 
 2.restful post方式的上传文件的接口：http://59.110.214.75/upload 
