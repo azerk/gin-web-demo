@@ -4,9 +4,11 @@ upload pic
 使用gin做的上传文件的小demo
 
 包括三个接口：
-1.访问web页面的接口：http://59.110.214.75/load
-1.restful post方式的上传文件的接口：http://59.110.214.75/upload
-2.常用的get方式的访问接口：http://59.110.214.75/user?name=kzz&age=18
+1.访问web页面的接口：http://59.110.214.75/load 
+
+2.restful post方式的上传文件的接口：http://59.110.214.75/upload 
+
+3.常用的get方式的访问接口：http://59.110.214.75/user?name=kzz&age=18 
 
 go项目中静态资源无法直接打包，此处使用的是go-bindata,使用方法：
 1.下载安装go-bindata:go get -u github.com/jteeuwen/go-bindata/...
