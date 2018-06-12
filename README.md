@@ -11,13 +11,20 @@ upload pic
 
 3.常用的get方式的访问接口：http://59.110.214.75/user?name=kzz&age=18 
 
-go项目中静态资源无法直接打包，此处使用的是go-bindata,使用方法：
+go项目中静态资源无法直接打包，此处使用的是go-bindata,使用方法:
+
 1.下载安装go-bindata:go get -u github.com/jteeuwen/go-bindata/...
+
 2.将静态资源打包（demo中主要为temp文件下）：
-  go-bindata -o=gin_web/utils/asset.go -pkg=asset temp/...
-  此处会生成asset.go
-3.项目启动时释放静态资源到指定目录：
-  此项目是在main.go直接释放：
+
+  go-bindata -o=gin_web/utils/asset.go -pkg=asset temp/...  
+  
+  此处会生成asset.go  
+  
+3.项目启动时释放静态资源到指定目录：  
+
+  此项目是在main.go直接释放：  
+  
   isSuccess:=true
 	dirs := []string{"temp"} // 设置需要释放的目录
 
