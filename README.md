@@ -1,7 +1,15 @@
 # gin-web-demo
 upload pic
 
-使用gin做的上传文件的小demo
+此demo是使用gin做的上传文件的小demo
+
+下载gin
+
+$ go get github.com/gin-gonic/gin
+
+导入gin
+
+import "github.com/gin-gonic/gin"
 
 包括三个接口： 
 
